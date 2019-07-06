@@ -1,0 +1,112 @@
+/* Font */
+
+@font-face {
+    font-family: 'wonderiaregular';
+    src: url('../font/wonderia.woff2') format('woff2'), url('../font/wonderia.otf') format('otf'), url('../font/fontswonderia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("../imgs/leather.jpg");
+    background-position: center center;
+    height: 75vh;
+    margin-bottom: 0px;
+    position: relative;
+    background-size: cover;
+    color: white;
+    padding-top: 15px;
+}
+
+.logo-title {
+    font-family: 'wonderiaregular';
+    text-align: center;
+    margin-top: 15px;
+    font-size: 65px;
+}
+
+.divider {
+    height: 15px;
+    background-color: black;
+}
+
+
+/* Navigation */
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.fixed-top {
+    margin: 15px 30px;
+}
+
+.center-bird {
+    display: block;
+    margin: auto;
+    margin-top: 170px;
+    width: 190px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* product images */
+
+.product {
+    width: 500px;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.section-title {
+    margin: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    border-style: solid;
+    line-height: 1px;
+    padding: 26px;
+}
+
+.description {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* .container-fluid {
+    margin-left: 30px;
+    margin-right: 30px;
+} */
+
+@media only screen and (max-width: 600px) {
+    .fixed-top {
+        margin: auto;
+    }
+    .product {
+        width: 285px;
+    }
+    .center-bird {
+        margin-top: 130px;
+    }
+    .logo-title {
+        line-height: 50px;
+    }
+    .section-title {
+        font-size: 29px;
+    }
+}
