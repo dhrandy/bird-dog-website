@@ -133,6 +133,14 @@ footer {
     font-weight: 600;
 }
 
+@media only screen and (max-width: 768px) {
+    /* for Ipad and Ipad mini */
+    .section-title {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .fixed-top {
         margin: auto;
