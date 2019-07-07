@@ -142,7 +142,7 @@ blockquote div {
     margin-right: 12%;
 }
 
-.container hr {
+.quote {
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -210,7 +210,7 @@ footer {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .container hr {
+    .quote {
         margin-top: 20px;
         margin-bottom: 20px;
     }
