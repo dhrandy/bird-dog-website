@@ -137,12 +137,12 @@ blockquote {
     font-size: 20px;
 }
 
-blockquote div {
+#presidentS {
     text-align: right;
     margin-right: 12%;
 }
 
-.quote {
+blockquote + hr {
     margin-top: 20px;
     margin-bottom: 40px;
 }
