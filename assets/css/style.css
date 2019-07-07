@@ -101,9 +101,9 @@ hr {
     border: 1px solid black;
 }
 
-.container {
+/* .container {
     max-width: 1250px;
-}
+} */
 
 .section-title {
     margin: 75px 300px;
@@ -157,6 +157,8 @@ footer {
     font-weight: 600;
 }
 
+
+
 @media only screen and (max-width: 1090px) {
     #logo-title {
         line-height: 50px;
@@ -187,7 +189,7 @@ footer {
     }
     .section-title {
         font-size: 29px;
-        margin: 17%;
+        margin: 10%;
     }
     .footer {
         height: 140px;
@@ -198,5 +200,9 @@ footer {
     }
     .product-row {
         margin-bottom: 0;
+    }
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
