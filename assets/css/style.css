@@ -176,6 +176,9 @@ footer {
         margin-left: 30%;
         margin-right: 30%;
     }
+    .product-row {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -203,9 +206,9 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .product-row {
+    /* .product-row {
         margin-bottom: 0;
-    }
+    } */
     .container {
         padding-left: 30px;
         padding-right: 30px;
