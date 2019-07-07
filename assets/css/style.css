@@ -7,13 +7,13 @@
     font-style: normal;
 }
 
+/* Changed paragraph margin */
 p {
     margin: 0;
 }
 
 
 /* Jumbotron */
-
 .jumbotron {
     background-image: url("../imgs/leather.jpg");
     background-position: center center;
@@ -50,6 +50,7 @@ p {
     position: absolute;
 }
 
+/* Sets width of the dog image */
 #dog {
     width: 235px;
 }
@@ -74,6 +75,7 @@ p {
     text-align: center;
 }
 
+/* Horizontal Rule Line */
 hr {
     width: 30%;
     margin-top: 0;
@@ -113,11 +115,13 @@ hr {
     margin-bottom: 50px;
 }
 
+/* Made in the USA image */
 #usa {
     width: 100px;
     margin-left: 10px;
 }
 
+/* Footer */
 footer {
     color: white;
     margin-top: 20px;
@@ -137,6 +141,7 @@ footer {
 }
 
 @media only screen and (max-width: 890px) {
+
     /* for Ipad and Ipad mini */
     .section-title {
         margin-left: 30%;
@@ -148,22 +153,28 @@ footer {
     .fixed-top {
         margin: auto;
     }
+
     .product {
         width: 285px;
     }
+
     #dog {
         width: 150px;
     }
+
     #logo-title {
         line-height: 50px;
         font-size: 55px;
     }
+
     .section-title {
         font-size: 29px;
     }
+
     .footer {
         height: 140px;
     }
+
     .information {
         margin-left: 10px;
         margin-right: 10px;
