@@ -6,15 +6,15 @@ This is a website that I'm working on for a friend that makes leather products. 
 
 - HTML 5
 - CSS
--Bootstrap CSS
--Slow Scroll Javascript
--Font Awesome
--Google Fonts
--jQuery
+- Bootstrap CSS
+- Slow Scroll Javascript
+- Font Awesome
+- Google Fonts
+- jQuery
 
 ## Software Used
--VS Code
--Photoshop
+- VS Code
+- Photoshop
 
 ## Link to Working Site
 http://www.randy-gentry.com/bird-dog-website/
