@@ -16,5 +16,5 @@ This is a website that I'm working on for a friend that makes leather products. 
 - VS Code
 - Photoshop
 
-## Link to Working Site
+## Link to Sample of Working Site
 http://www.randy-gentry.com/bird-dog-website/
