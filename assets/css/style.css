@@ -101,6 +101,7 @@ hr {
     border: 1px solid black;
 }
 
+
 /* .container {
     max-width: 1250px;
 } */
@@ -137,14 +138,14 @@ blockquote {
     font-size: 20px;
 }
 
-#presidentS {
-    text-align: right;
-    margin-right: 12%;
-}
-
-blockquote + hr {
+hr {
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+#president {
+    text-align: right;
+    margin-right: 12%;
 }
 
 
@@ -162,18 +163,23 @@ footer {
     font-weight: 600;
 }
 
+
 /* .nav-item-left {
     width: 100px;
 } */
+
 
 /* .nav-insta {
     display: unset;
 } */
 
-
 @media only screen and (max-width: 1090px) {
     #logo-title {
         line-height: 50px;
+    }
+    .section-title {
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
 
